@@ -6,7 +6,7 @@
 
 ### Pre-requisites
 
-* Python 3.7
+* Python = 3.7
 * Pytorch >= 1.2.0
 * CUDA 10.0 or higher
 
@@ -17,16 +17,16 @@
 ```bash
 $ cd depth_distribution/main/scripts
 
-# STEP-1: Generate source_density_maps
+# STEP-1: generate source_density_maps
 $ python gene_sourceDensityMaps.py --expid=<experiment id>
 
 # STEP-2: train
 $ python train.py --expid=<experiment id>
 # If you want to train based on the pre training model, you can execute the command
-$ python train.py --expid=<experiment id> --pret_model='<trained model path,it should be noted that the model name cannot be changed, and the corresponding adversarial network model should be placed in the same folder.>'
+$ python train.py --expid=<experiment id> --pret_model='<trained model path,it should be noted that the pre-trained model name cannot be changed, and the corresponding adversarial network model should be placed in the same folder.>'
 #The results of the training will be saved in the record.txt file
 
-# STEP-3: Generate pseudo labels
+# STEP-3: generate pseudo labels
 $ python gene_pseudoLabels.py --expid=<experiment id>  --pret_model='<trained model path>' --output_dir = '../../data/Cityscapes(here is Cityscapes or Mapillary )/pseudo_labels'                             
 
 # STEP-4: self-train
@@ -44,7 +44,7 @@ Where experiment ids are:
 |  4    | SYNTHIA to Mapillary 7 classes (full resolution) |
 |  5   | SYNTHIA to Mapillary 7 classes (low resolution) |
 
-Download the weights from [Google Drive](https://drive.google.com/drive/folders/1R6IWvC6DHiYyyvXlxwljoS_BYyEBSPd4)  and put it in  folder  <project_root>/pretrained_models  for initializing resnet-101 backbone.
+Download the weights from here  [Google Drive](https://drive.google.com/drive/folders/1R6IWvC6DHiYyyvXlxwljoS_BYyEBSPd4)  and put it in  folder  <project_root>/pretrained_models  for initializing resnet-101 backbone.
 
 In addition, Gaussian mixture model parameters can be calculated by [gmm-torch](https://github.com/ldeecke/gmm-torch)
 
