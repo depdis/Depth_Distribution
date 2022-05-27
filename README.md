@@ -36,12 +36,12 @@ $ python self_train.py --expid=<experiment id>  --pret_model='<trained model pat
 $ python test.py --expid=<experiment id>  --pret_model='<trained model path>'
 ```
 Where experiment ids are:
-| Exp. Id | Description | 
-| -------- | -------- | 
+| Exp. Id | Description |
+| -------- | -------- |
 |  1   | SYNTHIA to Cityscapes 16 classes |
-|  2    | SYNTHIA to Cityscapes 7 classes (full resolution) |
+|  2    | SYNTHIA to Cityscapes 7 classes |
 |  3   | SYNTHIA to Cityscapes 7 classes (low resolution) |
-|  4    | SYNTHIA to Mapillary 7 classes (full resolution) |
+|  4    | SYNTHIA to Mapillary 7 classes |
 |  5   | SYNTHIA to Mapillary 7 classes (low resolution) |
 
 Download the weights from here  [Google Drive](https://drive.google.com/drive/folders/1R6IWvC6DHiYyyvXlxwljoS_BYyEBSPd4)  and put it in  folder  <project_root>/pretrained_models  for initializing resnet-101 backbone.
@@ -98,6 +98,21 @@ In addition, Gaussian mixture model parameters can be calculated by [gmm-torch](
 ## Pre-trained models
 
 + Pre-trained models are provided here   [Google Drive](https://drive.google.com/drive/folders/1R6IWvC6DHiYyyvXlxwljoS_BYyEBSPd4).
+
+We provide 10 pre-trained models of our paper.
+
+1. Syn_City_16cls(M4).pth represents SYNTHIA-->Cityscapes 16 class and M4 in Table 3.  
+2. Syn_City_7cls.pth represents SYNTHIA-->Cityscapes 7 class.  
+3. Syn_City_7cls_small.pth represents SYNTHIA-->Cityscapes 7 class (low resolution).  
+4. Syn_Map_7cls.pth represents SYNTHIA-->Mapillary 7 class.  
+5. Syn_Map_7cls_small.pth represents SYNTHIA-->Mapillary 7 class (low resolution).  
+6. M1.pth represents  M1 in Table 3.  
+7. M2-S4.pth represents  M2 in Table 3 and S4 in Table 4. 
+8. M3.pth represents  M3 in Table 3.  
+9. S1.pth represents  S1 in Table 4.  
+10. S2.pth represents  S2 in Table 4.  
+
+Note that all the models of M1...M4,S1...S4 are trained and evaluated on SYNTHIA → Cityscapes  16 classes.
 
 
 
