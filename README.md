@@ -99,7 +99,7 @@ In addition, Gaussian mixture model parameters can be calculated by [gmm-torch](
 
 + Pre-trained models are provided here   [Google Drive](https://drive.google.com/drive/folders/1R6IWvC6DHiYyyvXlxwljoS_BYyEBSPd4).
 
-We provide 10 pre-trained models of our paper.
+  We provide all pre-trained models of our paper(11 models).
 
 1. Syn_City_16cls(M4).pth represents SYNTHIA-->Cityscapes 16 class and M4 in Table 3.  
 2. Syn_City_7cls.pth represents SYNTHIA-->Cityscapes 7 class.  
@@ -111,6 +111,7 @@ We provide 10 pre-trained models of our paper.
 8. M3.pth represents  M3 in Table 3.  
 9. S1.pth represents  S1 in Table 4.  
 10. S2.pth represents  S2 in Table 4.  
+11. S3.pth represents  S3 in Table 4.  
 
 Note that all the models of M1...M4,S1...S4 are trained and evaluated on SYNTHIA → Cityscapes  16 classes.
 
