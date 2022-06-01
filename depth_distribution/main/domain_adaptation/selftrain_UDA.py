@@ -67,7 +67,7 @@ def selftrain_depdis(model, optimizer, target_loader, test_loader, cfg):
         current_losses = {
             "loss_seg_trg_main": loss_seg_trg_main,
         }
-        print_losses(current_losses, i_iter)
+        print_losses(current_losses)
 
         if (i_iter+1) % cfg.TRAIN.SAVE_PRED_EVERY == 0 and i_iter != 0:
             print("taking snapshot ...")
