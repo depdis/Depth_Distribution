@@ -18,7 +18,7 @@ cfg.NUM_WORKERS = 4
 #pseudo labels number
 cfg.MAX_ITERS_PSEUDO = 2975
 #self_training number
-cfg.MAX_ITERS_SELFTRAIN = 30000
+cfg.MAX_ITERS_SELFTRAIN = 10000
 
 # List of training images
 cfg.DATA_LIST_SOURCE = str(project_root / "main/dataset/synthia_list/{}.txt")
