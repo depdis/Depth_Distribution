@@ -59,7 +59,7 @@ def main(args):
             info_path=cfg.TEST.INFO_TARGET,
             crop_size=cfg.TEST.INPUT_SIZE_TARGET,
             mean=cfg.TRAIN.IMG_MEAN,
-            scale_label=False
+            scale_label=True
         )
         fixed_test_size = False
 
