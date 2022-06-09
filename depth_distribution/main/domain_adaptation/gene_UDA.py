@@ -198,7 +198,7 @@ def gene_pseudo_labels_4(model, target_loader, output_dir, cfg):
             my_array_u = (c_int * 972800)(*aaa)
             dll = ctypes.cdll.LoadLibrary(str(project_root) + os.sep + 'spatial_prior_algorithm.so')
             dll.Add1.restype = ctypes.POINTER(StructPointer)
-            array_count = [100, 77, 10, 32, 23, 17, 17]
+            array_count = [100, 87, 50, 62, 57 54, 54]
             my_array_count = (c_int * 7)(*array_count)
             p = dll.Add1(my_array_u, my_array_count)
             newlabel = np.array(p.contents.revalue[:])

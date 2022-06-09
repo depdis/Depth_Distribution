@@ -68,7 +68,7 @@ cfg.TRAIN.POWER = 0.9
 
 #Loss weight
 cfg.TRAIN.LAMBDA_SEG_SRC = 1.0  # weight of source seg loss
-cfg.TRAIN.LAMBDA_BAL_SRC = 0.001  # weight of source balance loss
+cfg.TRAIN.LAMBDA_BAL_SRC = 0.005  # weight of source balance loss
 cfg.TRAIN.LAMBDA_DEP_SRC = 0.0001 # weight of source depth loss
 cfg.TRAIN.LAMBDA_ADV_TAR = 0.001  # weight of target adv loss
 cfg.TRAIN.LAMBDA_BAL_TAR = 0.001 # weight of target balance loss
