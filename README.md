@@ -92,6 +92,7 @@ In addition, Gaussian mixture model parameters can be calculated by [gmm-torch](
   └── validation
       ├── images
       └── labels
+  ```
 
 
 
@@ -121,3 +122,32 @@ Note that all the models of M1...M4,S1...S4 are trained and evaluated on SYNTHIA
 
 + DADA and CTRL are used as our baseline and coding reference [DADA](https://github.com/valeoai/DADA) and [CTRL](https://github.com/susaha/ctrl-uda).
 
+
+
+## Additional experiments according to reviewers 
+
++ We added the results of depth and density to Figure 2 and Figure 3.
+
+![图片1](C:\Users\Administrator\Desktop\图片1.png)
+
+
+
+![图片2](C:\Users\Administrator\Desktop\图片2.png)
+
+
+
++ t-SNE visualization for segmentation results of Cityscape test images by two different joint-space features
+
+![t_sne](C:\Users\Administrator\Desktop\t_sne.png)
+
+
+
++ Additional training models based on different adversarial features: segmentation feature, density feature, depth+segmentation feature.
+
+​        Additional training models are provided here   [Google Drive](https://drive.google.com/drive/folders/1R6IWvC6DHiYyyvXlxwljoS_BYyEBSPd4).
+
+
+
++ GMM Parameters
+
+​       GMM Parameters are provided here   [Google Drive](https://drive.google.com/drive/folders/1R6IWvC6DHiYyyvXlxwljoS_BYyEBSPd4).
