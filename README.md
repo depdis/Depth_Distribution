@@ -128,7 +128,11 @@ Note that all the models of M1...M4,S1...S4 are trained and evaluated on SYNTHIA
 
 + We added the results of depth and density to Figure 2 and Figure 3.
 
+![Figure2](depth_distribution/Figure2.png)
 
+
+
+![Figure3](depth_distribution/Figure3.png)
 
 
 
