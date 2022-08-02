@@ -128,17 +128,13 @@ Note that all the models of M1...M4,S1...S4 are trained and evaluated on SYNTHIA
 
 + We added the results of depth and density to Figure 2 and Figure 3.
 
-![图片1](C:\Users\Administrator\Desktop\图片1.png)
 
-
-
-![图片2](C:\Users\Administrator\Desktop\图片2.png)
 
 
 
 + t-SNE visualization for segmentation results of Cityscape test images by two different joint-space features
 
-![t_sne](C:\Users\Administrator\Desktop\t_sne.png)
+![t_SNE](depth_distribution/t_SNE.png)
 
 
 
