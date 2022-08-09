@@ -132,7 +132,7 @@ Note that all the models of M1...M4,S1...S4 are trained and evaluated on SYNTHIA
 
 
 
-![figure2 grayscale image](depth_distribution/figure2 grayscale image.png)
+![figure2_grayscale_image](depth_distribution/figure2_grayscale_image.png)
 
 
 
@@ -140,7 +140,7 @@ Note that all the models of M1...M4,S1...S4 are trained and evaluated on SYNTHIA
 
 
 
-![figure3 grayscale image](depth_distribution/figure3 grayscale image.png)
+![figure3_grayscale_image](depth_distribution/figure3_grayscale_image.png)
 
 
 
