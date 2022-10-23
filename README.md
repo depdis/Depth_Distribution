@@ -100,7 +100,7 @@ In addition, Gaussian mixture model parameters can be calculated by [gmm-torch](
 
 + Pre-trained models are provided here   [Google Drive](https://drive.google.com/drive/folders/1R6IWvC6DHiYyyvXlxwljoS_BYyEBSPd4).
 
-  We provide all pre-trained models of our paper(11 models).
+  ## We provide all pre-trained models of our paper(12 models).
 
 1. Syn_City_16cls(M4).pth represents SYNTHIA-->Cityscapes 16 class and M4 in Table 3.  
 2. Syn_City_7cls.pth represents SYNTHIA-->Cityscapes 7 class.  
@@ -108,13 +108,14 @@ In addition, Gaussian mixture model parameters can be calculated by [gmm-torch](
 4. Syn_Map_7cls.pth represents SYNTHIA-->Mapillary 7 class.  
 5. Syn_Map_7cls_small.pth represents SYNTHIA-->Mapillary 7 class (low resolution).  
 6. M1.pth represents  M1 in Table 3.  
-7. M2-S4.pth represents  M2 in Table 3 and S4 in Table 4. 
+7. M2-S5.pth represents  M2 in Table 3 and S5 in Table 4. 
 8. M3.pth represents  M3 in Table 3.  
 9. S1.pth represents  S1 in Table 4.  
 10. S2.pth represents  S2 in Table 4.  
 11. S3.pth represents  S3 in Table 4.  
+12. S4.pth represents S4 in Table 4.
 
-Note that all the models of M1...M4,S1...S4 are trained and evaluated on SYNTHIA → Cityscapes  16 classes.
+Note that all the models of M1...M4,S1...S5 are trained and evaluated on SYNTHIA → Cityscapes  16 classes.
 
 
 
@@ -125,30 +126,6 @@ Note that all the models of M1...M4,S1...S4 are trained and evaluated on SYNTHIA
 
 
 ## Additional experiments according to reviewers 
-
-+ We added the results of depth and density to Figure 2 and Figure 3.
-
-![Figure2](depth_distribution/Figure2.png)
-
-
-
-![figure2_grayscale_image](depth_distribution/figure2_grayscale_image.png)
-
-
-
-![Figure3](depth_distribution/Figure3.png)
-
-
-
-![figure3_grayscale_image](depth_distribution/figure3_grayscale_image.png)
-
-
-
-+ t-SNE visualization for segmentation results of Cityscape test images by two different joint-space features
-
-![t_SNE](depth_distribution/t_SNE.png)
-
-
 
 + Additional training models based on different adversarial features: segmentation feature, density feature, depth+segmentation feature.
 
